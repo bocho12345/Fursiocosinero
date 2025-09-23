@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+/* Estilos para las recetas */
+.receta {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.receta h2 {
+    color: #e44d26; /* Color naranja */
+}
+
+.receta ul, .receta ol {
+    padding-left: 20px;
+}
+
+.receta li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
